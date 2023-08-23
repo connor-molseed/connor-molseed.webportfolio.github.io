@@ -1,0 +1,43 @@
+/** Color Palette **/
+:root
+{
+	--background-body: #EEF1FF;
+	--background-landing: #D2DAFF;
+	--background-highlight: #B1B2FF;
+
+	--text-body: #1A1A1A;
+	--text-contrast: #EEF1FF;
+	--text-highlight: #4A00B3;
+}
+
+/** Base Styling **/
+body
+{
+	background-color: var(--background-body);
+	color: var(--text-body);
+}
+
+/** Section Styles **/
+#landing
+{
+	background-color: var(--background-landing);
+	min-height: 100vh;
+}
+
+#footer
+{
+	background-color: var(--background-landing);
+	color: var(--text-contrast);
+}
+
+.container
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/** Text Styling **/
+#footer p 
+{
+	margin: 0;
+}
