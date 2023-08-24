@@ -1,0 +1,55 @@
+//Landing Textbox------------------------------------------------------------------------
+*line 1*
+Hi, I'm Connor
+
+*Line 2*
+Looking for someone to build you a website, or assistance with an existing one?
+
+*Line 3*
+Need someone approachable and friendly, with a range of skills to solve any problem?
+
+*Button 1*
+Tell Me More!
+
+*Button 2*
+Sounds Perfect!
+
+//About Me------------------------------------------------------------------------------
+*Header*
+About Me
+
+*Paragraph 1*
+I'm a web and game developer, with a mind for programming and a passion for design. When I'm not busy expanding my skillset I'm usually found working on various projects and love a good challenge to test my abilities!
+
+*Paragraph 2*
+I can create both web and mobile sites, for projects of various sizes and with a variety of needs. Located in Adelaide, Australia; but more than capable of providing services remotely when needed.
+
+//Skills-----------------------------------------------------------------------------------
+*Header*
+Why Me?
+
+*Box 1 Header*
+Design
+
+*Box 1 Content*
+
+
+*Box 2 Header*
+Build
+
+*Box 2 Content*
+
+
+*Box 3 Header*
+Maintain
+
+*Box 3 Content*
+
+
+//Contact--------------------------------------------------------------------------------
+
+
+
+//Footer---------------------------------------------------------------------------------
+*Copyright*
+© 2023 Connor Molseed. All Rights Reserved.

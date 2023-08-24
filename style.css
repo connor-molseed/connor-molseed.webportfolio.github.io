@@ -2,7 +2,7 @@
 :root
 {
 	--background-body: #EEF1FF;
-	--background-landing: #D2DAFF;
+	--background-contrast: #D2DAFF;
 	--background-highlight: #B1B2FF;
 
 	--text-body: #1A1A1A;
@@ -20,24 +20,61 @@ body
 /** Section Styles **/
 #landing
 {
-	background-color: var(--background-landing);
+	background-color: var(--background-highlight);
 	min-height: 100vh;
 }
 
 #footer
 {
-	background-color: var(--background-landing);
+	background-color: var(--background-highlight);
 	color: var(--text-contrast);
 }
 
-.container
+/** Container Styling **/
+#landing .chatbox
 {
-	margin-left: auto;
-	margin-right: auto;
+	background-color: var(--background-body);
+	border-radius: 12px;
 }
 
-/** Text Styling **/
+/** Element Styling **/
+p
+{
+	margin: 0;
+}
+
+#landing p
+{
+	background-color: var(--background-contrast);
+	border-radius: 10px 10px 10px 2px;
+
+	padding: 10px;
+}
+
 #footer p 
 {
 	margin: 0;
+}
+
+p.highlight
+{
+	color: var(--text-highlight);
+	font-weight: bold;
+}
+
+button
+{
+	background-color: transparent;
+
+	border-style: solid;
+	border-color: var(--text-highlight);
+	border-radius: 10px 10px 2px 10px;
+}
+
+button.highlight
+{
+	color: var(--text-contrast);
+	font-weight: bold;
+
+	background-color: var(--text-highlight);
 }
